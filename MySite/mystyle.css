@@ -1,0 +1,83 @@
+/*Global*/
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(180, 62, 62);
+    color: black;
+}
+
+/*utilities*/
+.container {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/*header*/
+header {
+    background-image: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8Y29kZSUyMGJhY2tncm91bmR8fDB8fHx8MTYyNzc4Mzg0OQ&ixlib=rb-1.2.1&q=80&w=1080);
+    height: 40vh;
+    background-position: center left;
+    background-size: cover;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 60px;
+    color: #ffcc00;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 25px;
+    word-spacing: 15px;
+    text-shadow: 2px 2px wheat;
+}
+
+
+/*menu*/
+nav.menu {
+    background-color: #502c2c;
+    padding: 20px;
+    text-align: left;
+
+}
+
+nav a {
+
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #ffcc00;
+}
+
+nav.menu a {
+    font-size: 16px;
+}
+
+footer nav a {
+    font-size: 12px;
+}
+
+div.services {
+    background-color: white;
+    margin-bottom: auto;
+    border-radius: 10px;
+    padding: 20px
+}
+
+div.services p {
+    line-height: 2;
+}
+
+div.services-icon {
+    background-color: yellow;
+}
+
+div.services-icon i {
+    font-size: 25px;
+}
